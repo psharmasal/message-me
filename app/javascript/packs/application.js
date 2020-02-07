@@ -16,8 +16,7 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import $ from 'jquery';
-window.jQuery = $;
-window.$ = $;
+import JQuery from 'jquery';
+window.$ = window.jQuery = JQuery;
 
 import "./custom";
