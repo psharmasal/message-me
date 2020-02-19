@@ -110,6 +110,5 @@ Rails.application.configure do
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
-  config.action_cable.url = "ws://localhost:3000/cable"
-  config.action_cable.allowed_request_origins = ['https://message-me-sal.herokuapp.com', 'http://message-me-sal.herokuapp.com/message']
+  config.action_cable.allowed_request_origins = ['https://message-me-sal.herokuapp.com', 'http://message-me-sal.herokuapp.com']
 end
